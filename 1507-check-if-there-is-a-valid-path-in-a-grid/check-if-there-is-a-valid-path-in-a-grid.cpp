@@ -26,7 +26,7 @@ public:
             for(auto d : dirs[grid[r][c]]){
                 int nr=r+d[0];
                 int nc=c+d[1];
-bool connected=false;
+                bool connected=false;
                 if(nr>=0 && nr<n && nc>=0 && nc<m && !vis[nr][nc]){
                     
                     for(auto d1 : dirs[grid[nr][nc]]){
